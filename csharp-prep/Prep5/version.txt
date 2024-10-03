@@ -1,0 +1,10 @@
+Version control is a system that tracks edits and revisions to a project and project files. 
+It allows the user to revert to old copies if necessary. Using a version control system is beneficial 
+because it allows multiple users to clone, work, update, and make changes on a local level. Once a 
+push or an update is sent to the version control, all users can see updates and changes made to the 
+file. Another benefit is that if errors arise, the project can be reverted to an earlier state to 
+alleviate problems. A great example of version control is when a remote team is working on a project 
+together. Each team member can be anywhere but still have access to edit and make changes to the 
+project. This example helps to show the power of version control systems. When you are ready 
+to "push" your changes to the version control, you can use a command 
+such as git commit -m "Changes were made"; following that, you would use git push ...
