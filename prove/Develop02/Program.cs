@@ -107,7 +107,6 @@ class Program
             string[] journal = line.Split("|");
 
             Entry newEntry = new();
-            
 
             newEntry._date = DateTime.Parse(journal[0]);
             newEntry._prompt = journal[1];
