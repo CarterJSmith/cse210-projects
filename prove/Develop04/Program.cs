@@ -5,6 +5,7 @@ using System;
 // in the reflection activity, I added logic to loop through all the questions in the questions list
     // printing each question once before repeating a question 
 // The listing activity only counts if the user inputs something
+// I also used a list of frames for a loading animation as well as a spinner 
 
 
 class Program
