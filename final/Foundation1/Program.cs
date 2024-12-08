@@ -16,6 +16,7 @@ class Program
         myVideo1.AddComment(myComment2);
         myVideo1.AddComment(myComment3);
 
+        // Adds the video object to the list
         videosList.Add(myVideo1);
 
         Video myVideo2 = new Video("Trolly eats ice cream", "Troly", 3200);
@@ -26,6 +27,7 @@ class Program
         myVideo2.AddComment(myComment5);
         myVideo2.AddComment(myComment6);
 
+        // Adds the video object to the list
         videosList.Add(myVideo2);
 
         Video myVideo3 = new Video("Dinesy Land", "Misty", 600);
@@ -34,6 +36,7 @@ class Program
         myVideo3.AddComment(myComment8);
         myVideo3.AddComment(myComment9);
 
+        // Adds the video object to the list
         videosList.Add(myVideo3);
 
         // display video info and comments

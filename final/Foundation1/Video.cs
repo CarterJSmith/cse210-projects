@@ -17,6 +17,7 @@ class Video
     // Behaviors
     public void Display()
     {
+        // Prints video with the comments beneath the video info
         Console.Write($"Title: {_title}\nAuthor: {_author}\nLength: {_lengthInSeconds} seconds\n\nComments: ");
         Console.WriteLine(GetNumComments());
         foreach (Comment comment in _comments)
