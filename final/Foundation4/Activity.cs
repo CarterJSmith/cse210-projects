@@ -29,7 +29,8 @@ class Activity
 
     public virtual void GetSummary()
     {
-        // example output 03 Nov 2022 Running (30 min)- Distance 3.0 miles, Speed 6.0 mph, Pace: 10.0 min per mile
+        // prints the output in this format
+        //  03 Nov 2022 Running (30 min)- Distance 3.0 miles, Speed 6.0 mph, Pace: 10.0 min per mile
         Console.WriteLine($"{_date} {GetType().Name} ({_timeInMinutes} min): Distance {GetDistance():F1} km, Speed {GetSpeed():F1} kph, Pace: {GetPace():F1} min per km");
     }
 

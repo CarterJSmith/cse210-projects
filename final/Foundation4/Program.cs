@@ -18,3 +18,4 @@ class Program
         swimming.GetSummary();
     }
 }
+
